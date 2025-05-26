@@ -105,13 +105,13 @@ export default function LandingPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold">
   <Image
-    src="/logo.png"
-    alt="Logo Beauty Day"
-    width={120}
-    height={100}
-    className="rounded-lg"
-  />
-  <span className="text-2xl text-foreground">BeautyDay</span>
+  src="/logo.png"
+  alt="Logo Beauty Day"
+  width={300}
+  height={200}
+  className="rounded-lg mt-[50px] w-[100px] h-[60px] sm: mt-[70px] w-[200px] sm:h-[120px]"
+/>
+
 </div>
 
           <nav className="hidden md:flex gap-8 justify-center items-center">
