@@ -92,5 +92,21 @@ body {
   body {
     @apply bg-background text-foreground;
     @apply flex justify-center;
+      
+    }
+    @media screen and (prefers-color-scheme: dark) {
+      body {
+        @apply bg-background text-foreground;
+      }
+    }
   }
+
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-background text-foreground;
+  @apply flex justify-center;
+
+  @apply sm:justify-center;
+
+  @apply justify-start px-4;
 }

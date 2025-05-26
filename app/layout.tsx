@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SaaSify - Streamline Your Workflow",
-  description: "Boost productivity, reduce costs, and scale your business with our all-in-one SaaS platform.",
+  title: "Beauth Day, sua autoestima elevada",
+  description: "Beauth Day é um site dedicado a elevar a autoestima das pessoas, oferecendo inovação para cuidados pessoais e bem-estar.",
     generator: 'v0.dev'
 }
 
